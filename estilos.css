@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-nav {
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 .navbar-nav:hover {
@@ -293,7 +293,7 @@ body {
 .icones {
     color: white;
     padding-left: 40px;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .footer {
@@ -312,3 +312,33 @@ body {
     width: 120px;
 }
 
+/* Breakpoints */
+
+@media screen and (max-width: 768px) {
+    .lancamento {
+        display: none;
+    }
+    .titulo {
+        display: none;
+    }
+    button.navbar-toggler {
+        background-color: white;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .logo-menu {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .botao_card {
+        display: none;
+    }
+    .card {
+        width: 100%;
+        margin: auto;
+    }
+}
