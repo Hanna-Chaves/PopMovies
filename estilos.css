@@ -263,13 +263,24 @@ body {
 }
 
 .dropdown-toggle:hover {
-    color: rgb(44, 191, 211);
+    color: rgb(20, 22, 22);
     background-color: rgb(26, 18, 18);
 }
 
 .dropdown-menu {
-    background-color: rgb(44, 191, 211);
+    background: rgb(36, 29, 29);
     color: white;
+}
+
+#categoria > li > a{
+    color: white;
+}
+
+#dropdownMenuLink{
+    color: white;
+    background: linear-gradient(90deg,
+    rgba(166, 5, 18, 1) 28%,
+    rgba(13, 13, 13, 1) 77%);
 }
 
 .botao_card {
@@ -329,13 +340,21 @@ body {
     color: white;
 }
 
+#botao-filmes{
+    background: black;
+    color: white;
+    width: 120px;
+}
+
 .botao_card {
     float: right;
     margin-left: 80%;
 }
 
-.btn-info {
+#btn-info {
     width: 120px;
+    background: black;
+    color: white;
 }
 
 .card-novidades {
