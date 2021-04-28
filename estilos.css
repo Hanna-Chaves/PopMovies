@@ -1,0 +1,344 @@
+body {
+    min-height: 100vh;
+    background-color: black;
+}
+
+
+.bnt-menu {
+    margin-right: 70px;
+}
+
+.header {
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.row-menu nav {
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+
+.container-fluid {
+    background: linear-gradient(90deg,
+    rgba(166, 5, 18, 1) 28%,
+    rgba(13, 13, 13, 1) 77%);
+    padding: 0px;
+    color: white;
+}
+
+.container-fluid>img {
+    width: 150px;
+    padding: 10px;
+}
+
+.navbar-nav {
+    margin-left: 40px;
+}
+
+.navbar-nav:hover {
+    color: black;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.logo {
+    width: 140px;
+}
+
+.containerheader {
+    margin-top: 55px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: darkred;
+}
+
+.row carousel_div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.titulo {
+    padding: 30px 0;
+    color: white;
+}
+
+.row carousel_div>h1 {
+    padding: 15px;
+    size: 50%;
+}
+
+.carousel-item active {
+    width: 100%;
+    height: 100%;
+}
+
+.sinopse1 {
+    width: 45%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.item {
+    display: flex;
+    flex-flow: row;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.item>iframe {
+    width: 80%;
+}
+
+.sinopse1 {
+    font-size: 80%;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.sinopse2 {
+    width: 45%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.item2 {
+    display: flex;
+    flex-flow: row;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.item2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.item2>iframe {
+    width: 80%;
+}
+
+.sinopse2 {
+    font-size: 80%;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.sinopse3 {
+    width: 45%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.item3 {
+    display: flex;
+    flex-flow: row;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.item3 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.item3>iframe {
+    width: 80%;
+}
+
+.sinopse3 {
+    font-size: 80%;
+}
+
+.sinopse4 {
+    width: 45%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.item4 {
+    display: flex;
+    flex-flow: row;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.item4 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 100px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.item4>iframe {
+    width: 80%;
+}
+
+.sinopse4 {
+    font-size: 80%;
+}
+
+.card>img {
+    width: 150px;
+}
+
+.card {
+    color: white;
+    background: black;
+    margin-bottom: 30px;
+}
+
+.titulo-card {
+    margin-top: 20px;
+}
+
+.card-body {
+    background: linear-gradient(90deg,
+            rgba(166, 5, 18, 1) 28%,
+            rgba(13, 13, 13, 1) 77%);
+}
+
+.dropdown {
+    margin-top: 20px;
+    width: 100%;
+    text-align: right;
+}
+
+.dropdown-toggle {
+    background-color: rgb(26, 18, 18);
+    color: white;
+}
+
+.dropdown-toggle:hover {
+    color: rgb(44, 191, 211);
+    background-color: rgb(26, 18, 18);
+}
+
+.dropdown-menu {
+    background-color: rgb(44, 191, 211);
+    color: white;
+}
+
+.botao_card {
+    width: min-content;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo-titulo {
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-entrevista {
+    background: linear-gradient(90deg,
+            rgba(166, 5, 18, 1) 28%,
+            rgba(13, 13, 13, 1) 77%);
+    border-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex: 1;
+    min-width: 300px !important;
+}
+
+.card-body {
+    color: white;
+}
+
+.card-novidades {
+    background: transparent !important;
+    border-color: white !important;
+}
+
+.card-img-novidades {
+    width: 200px;
+}
+
+.card-img-novidades1 {
+    width: 300px;
+}
+
+.tags-novidades>span {
+    margin-right: 10px;
+}
+
+.texto-site {
+    color: white;
+}
+
+.conteudo-editorial {
+    color: white;
+}
+
+.icones {
+    color: white;
+}
+
+.botao_card {
+    float: right;
+    margin-left: 80%;
+}
+
+.btn-info {
+    width: 120px;
+}
+
+.card-novidades {
+    background: transparent !important;
+    border-color: white !important;
+}
+
+.tags-novidades>span {
+    margin-right: 10px;
+}
+
+.footer {
+    background: linear-gradient(90deg,
+            rgba(166, 5, 18, 1) 28%,
+            rgba(13, 13, 13, 1) 77%);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer>div>div {
+    justify-content: space-between !important;
+}
+
+.footer>div>div>img {
+    width: 120px;
+}
+
