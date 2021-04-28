@@ -1,6 +1,43 @@
+/* Comportamento no desktop */
+
 body {
     min-height: 100vh;
     background-color: black;
+}
+
+.header {
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.row-menu nav {
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.container-fluid {
+    background: linear-gradient(90deg,
+    rgba(166, 5, 18, 1) 28%,
+    rgba(13, 13, 13, 1) 77%);
+    padding: 0px;
+    color: white;
+}
+
+.container-fluid > img {
+    width: 150px;
+    padding: 10px;
+}
+
+.navbar-nav {
+    margin-left: 40px;
+}
+
+.navbar-nav:hover {
+    color: black;
 }
 
 #navbarSupportedContent > ul > li > a{
@@ -11,6 +48,10 @@ body {
 #navbarSupportedContent > ul > li > a:hover{
     color: black;
     font-weight: bold;
+}
+
+.bnt-menu {
+    margin-right: 70px;
 }
 
 #busca {
@@ -24,58 +65,6 @@ body {
     background: darkred;
 }
 
-
-.bnt-menu {
-    margin-right: 70px;
-}
-
-.header {
-    margin-bottom: 20px;
-    margin: 0 auto;
-}
-
-.row-menu nav {
-    margin-bottom: 20px;
-    margin: 0 auto;
-}
-
-
-.container-fluid {
-    background: linear-gradient(90deg,
-    rgba(166, 5, 18, 1) 28%,
-    rgba(13, 13, 13, 1) 77%);
-    padding: 0px;
-    color: white;
-}
-
-.container-fluid>img {
-    width: 150px;
-    padding: 10px;
-}
-
-.navbar-nav {
-    margin-left: 40px;
-}
-
-.navbar-nav:hover {
-    color: black;
-}
-
-.navbar {
-    padding: 0px;
-}
-
-.logo {
-    width: 140px;
-}
-
-.containerheader {
-    margin-top: 55px;
-    margin-left: 10px;
-    padding: 10px;
-    background-color: darkred;
-}
-
 .row carousel_div {
     display: flex;
     margin: 0 auto;
@@ -87,7 +76,7 @@ body {
     color: white;
 }
 
-.row carousel_div>h1 {
+.row carousel_div > h1 {
     padding: 15px;
     size: 50%;
 }
@@ -102,13 +91,7 @@ body {
     padding-left: 20px;
     padding-bottom: 10px;
     color: white;
-}
-
-.item {
-    display: flex;
-    flex-flow: row;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    font-size: 80%;
 }
 
 .item {
@@ -120,12 +103,8 @@ body {
     padding-bottom: 20px;
 }
 
-.item>iframe {
+.item > iframe {
     width: 80%;
-}
-
-.sinopse1 {
-    font-size: 80%;
 }
 
 .carousel-item {
@@ -138,13 +117,7 @@ body {
     padding-left: 20px;
     padding-bottom: 10px;
     color: white;
-}
-
-.item2 {
-    display: flex;
-    flex-flow: row;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    font-size: 80%;
 }
 
 .item2 {
@@ -156,17 +129,8 @@ body {
     padding-bottom: 20px;
 }
 
-.item2>iframe {
+.item2 > iframe {
     width: 80%;
-}
-
-.sinopse2 {
-    font-size: 80%;
-}
-
-.carousel-item {
-    width: 100%;
-    height: 100%;
 }
 
 .sinopse3 {
@@ -174,13 +138,7 @@ body {
     padding-left: 20px;
     padding-bottom: 10px;
     color: white;
-}
-
-.item3 {
-    display: flex;
-    flex-flow: row;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    font-size: 80%;
 }
 
 .item3 {
@@ -192,12 +150,8 @@ body {
     padding-bottom: 20px;
 }
 
-.item3>iframe {
+.item3 > iframe {
     width: 80%;
-}
-
-.sinopse3 {
-    font-size: 80%;
 }
 
 .sinopse4 {
@@ -205,13 +159,7 @@ body {
     padding-left: 20px;
     padding-bottom: 10px;
     color: white;
-}
-
-.item4 {
-    display: flex;
-    flex-flow: row;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    font-size: 80%;
 }
 
 .item4 {
@@ -223,32 +171,12 @@ body {
     padding-bottom: 20px;
 }
 
-.item4>iframe {
+.item4 > iframe {
     width: 80%;
-}
-
-.sinopse4 {
-    font-size: 80%;
-}
-
-.card>img {
-    width: 150px;
-}
-
-.card {
-    color: white;
-    background: black;
-    margin-bottom: 30px;
 }
 
 .titulo-card {
     margin-top: 20px;
-}
-
-.card-body {
-    background: linear-gradient(90deg,
-            rgba(166, 5, 18, 1) 28%,
-            rgba(13, 13, 13, 1) 77%);
 }
 
 .dropdown {
@@ -267,6 +195,13 @@ body {
     background-color: rgb(26, 18, 18);
 }
 
+#dropdownMenuLink{
+    color: white;
+    background: linear-gradient(90deg,
+    rgba(166, 5, 18, 1) 28%,
+    rgba(13, 13, 13, 1) 77%);
+}
+
 .dropdown-menu {
     background: rgb(36, 29, 29);
     color: white;
@@ -276,11 +211,14 @@ body {
     color: white;
 }
 
-#dropdownMenuLink{
+.card {
     color: white;
-    background: linear-gradient(90deg,
-    rgba(166, 5, 18, 1) 28%,
-    rgba(13, 13, 13, 1) 77%);
+    background: black;
+    margin-bottom: 30px;
+}
+
+.card > img {
+    width: 150px;
 }
 
 .botao_card {
@@ -290,10 +228,28 @@ body {
     text-align: center;
 }
 
+#botao-filmes{
+    background: black;
+    color: white;
+    width: 120px;
+}
+
 .conteudo-titulo {
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.card-body {
+    background: linear-gradient(90deg,
+            rgba(166, 5, 18, 1) 28%,
+            rgba(13, 13, 13, 1) 77%);
+    color: white;
+}
+
+.botao_card {
+    float: right;
+    margin-left: 80%;
 }
 
 .card-entrevista {
@@ -307,13 +263,14 @@ body {
     min-width: 300px !important;
 }
 
-.card-body {
+#btn-info {
+    width: 120px;
+    background: black;
     color: white;
 }
 
-.card-novidades {
-    background: transparent !important;
-    border-color: white !important;
+.card-img-novidades1 {
+    width: 300px;
 }
 
 .card-img-novidades {
@@ -321,11 +278,7 @@ body {
     padding-right: 20px;
 }
 
-.card-img-novidades1 {
-    width: 300px;
-}
-
-.tags-novidades>span {
+.tags-novidades > span {
     margin-right: 10px;
 }
 
@@ -339,32 +292,8 @@ body {
 
 .icones {
     color: white;
-}
-
-#botao-filmes{
-    background: black;
-    color: white;
-    width: 120px;
-}
-
-.botao_card {
-    float: right;
-    margin-left: 80%;
-}
-
-#btn-info {
-    width: 120px;
-    background: black;
-    color: white;
-}
-
-.card-novidades {
-    background: transparent !important;
-    border-color: white !important;
-}
-
-.tags-novidades>span {
-    margin-right: 10px;
+    padding-left: 40px;
+    margin: 20px;
 }
 
 .footer {
@@ -372,14 +301,14 @@ body {
             rgba(166, 5, 18, 1) 28%,
             rgba(13, 13, 13, 1) 77%);
     color: white;
-    padding: 20px 0;
+    padding: 6px 0;
 }
 
-.footer>div>div {
+.footer > div > div {
     justify-content: space-between !important;
 }
 
-.footer>div>div>img {
+.footer > div > div > img {
     width: 120px;
 }
 
