@@ -314,7 +314,7 @@ body {
 
 /* Breakpoints */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 768px) {
     .lancamento {
         display: none;
     }
@@ -324,21 +324,37 @@ body {
     button.navbar-toggler {
         background-color: white;
     }
-
+    .card {
+        width: 100%;
+        margin: auto;
+    }
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .logo-menu {
         width: 120px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
+    .lancamento {
+        display: none;
+    }
+    .titulo {
+        display: none;
+    }
+    button.navbar-toggler {
+        background-color: white;
+    }
     .botao_card {
         display: none;
     }
     .card {
         width: 100%;
         margin: auto;
+    }
+    #dropdownMenuLink {
+        display: none;
     }
 }
