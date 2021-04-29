@@ -314,7 +314,7 @@ body {
 
 /* Breakpoints */
 
-@media screen and (min-width: 415px) and (max-width: 768px) {
+@media screen and (min-width: 415px) and (max-width: 540px) {
     .lancamento {
         display: none;
     }
@@ -327,6 +327,21 @@ body {
     .card {
         width: 100%;
         margin: auto;
+    }
+    .botao_card {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 768px) {
+    .lancamento {
+        display: none;
+    }
+    .titulo {
+        display: none;
+    }
+    button.navbar-toggler {
+        background-color: white;
     }
 }
 
