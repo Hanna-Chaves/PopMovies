@@ -27,6 +27,10 @@ body {
     color: white;
 }
 
+.container-fluid1 {
+    background-color: black;
+}
+
 .container-fluid > img {
     width: 150px;
     padding: 10px;
